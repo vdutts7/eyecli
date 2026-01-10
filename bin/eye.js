@@ -133,9 +133,13 @@ if (mode === 'files' || extensions.length > 0) {
     cmdArgs.push('-e', ext);
   }
   
-  // Add excludes
+  // Add excludes (handle absolute vs relative paths)
   for (const ex of excludes) {
-    cmdArgs.push('--exclude', `*${ex}*`);
+    if (ex.startsWith('/')) {
+      cmdArgs.push('--exclude', ex);
+    } else {
+      cmdArgs.push('--exclude', `*${ex}*`);
+    }
   }
   
   // Add pattern (use '.' as match-all if only extensions specified)
@@ -162,9 +166,13 @@ if (mode === 'files' || extensions.length > 0) {
   if (includeBinary) cmdArgs.push('-a');
   if (countMode) cmdArgs.push('-c');
   
-  // Add excludes
+  // Add excludes (handle absolute vs relative paths)
   for (const ex of excludes) {
-    cmdArgs.push('--glob', `!**/${ex}/**`);
+    if (ex.startsWith('/')) {
+      cmdArgs.push('--glob', `!${ex}/**`);
+    } else {
+      cmdArgs.push('--glob', `!**/${ex}/**`);
+    }
   }
   
   cmdArgs.push(pattern, searchPath);
