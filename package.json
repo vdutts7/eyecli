@@ -1,6 +1,6 @@
 {
   "name": "@vd7/eyecli",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "The Eye sees EVERYTHING. A powerful search CLI wrapping ripgrep and fd with smart defaults.",
   "main": "index.js",
   "bin": {
