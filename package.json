@@ -1,10 +1,10 @@
 {
-  "name": "eyecli",
-  "version": "0.1.0",
+  "name": "@vd7/eyecli",
+  "version": "0.1.1",
   "description": "The Eye sees EVERYTHING. A powerful search CLI wrapping ripgrep and fd with smart defaults.",
   "main": "index.js",
   "bin": {
-    "eye": "./bin/eye.js"
+    "eyecli": "./bin/eye.js"
   },
   "scripts": {
     "test": "node bin/eye.js --help"
