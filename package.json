@@ -1,0 +1,44 @@
+{
+  "name": "eyecli",
+  "version": "0.1.0",
+  "description": "The Eye sees EVERYTHING. A powerful search CLI wrapping ripgrep and fd with smart defaults.",
+  "main": "index.js",
+  "bin": {
+    "eye": "./bin/eye.js"
+  },
+  "scripts": {
+    "test": "node bin/eye.js --help"
+  },
+  "keywords": [
+    "search",
+    "ripgrep",
+    "fd",
+    "find",
+    "grep",
+    "cli",
+    "files",
+    "content"
+  ],
+  "author": "vdutts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vdutts/eyecli.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "ripgrep": "*",
+    "fd-find": "*"
+  },
+  "peerDependenciesMeta": {
+    "ripgrep": {
+      "optional": true
+    },
+    "fd-find": {
+      "optional": true
+    }
+  }
+}
