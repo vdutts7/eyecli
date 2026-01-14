@@ -155,7 +155,7 @@ This creates `~/.eyeignore` with sensible defaults (node_modules, .git, build di
 
 <!-- BADGES -->
 [github]: https://img.shields.io/badge/💻_eyecli-000000?style=for-the-badge
-[github-url]: https://github.com/vdutts/eyecli
+[github-url]: https://github.com/vdutts7/eyecli
 [npm]: https://img.shields.io/badge/npm-@vd7/eyecli-CB3837?style=for-the-badge&logo=npm
 [npm-url]: https://www.npmjs.com/package/@vd7/eyecli
 [nodejs-badge]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
