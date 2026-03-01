@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://res.cloudinary.com/ddyc1es5v/image/upload/v1772377697/gh-repos/eyecli/social-preview.png" />
+
 <h1 align="center">👁️ eyecli</h1>
 <p align="center"><i><b>The Eye sees EVERYTHING. A powerful search CLI wrapping ripgrep and fd.</b></i></p>
 
