@@ -1,7 +1,7 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/vdutts7/webp/refs/heads/main/eyecli.webp" alt="logo" width="80" height="80" />
-<img src="https://raw.githubusercontent.com/vdutts7/webp/refs/heads/main/npm.webp" alt="logo" width="80" height="80" />
+<img src="https://raw.githubusercontent.com/vdutts7/squircle/main/webp/eyecli.webp" alt="logo" width="80" height="80" />
+<img src="https://raw.githubusercontent.com/vdutts7/squircle/main/webp/npm.webp" alt="logo" width="80" height="80" />
 
 <h1 align="center">👁️ eyecli</h1>
 <p align="center"><i><b>The Eye sees EVERYTHING. A powerful search CLI wrapping ripgrep and fd.</b></i></p>
