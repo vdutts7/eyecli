@@ -1,6 +1,6 @@
 {
   "name": "@vd7/eyecli",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "The Eye sees EVERYTHING. A powerful search CLI wrapping ripgrep and fd with smart defaults.",
   "main": "index.js",
   "bin": {
@@ -23,8 +23,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vdutts/eyecli.git"
+    "url": "https://github.com/vdutts7/eyecli.git"
   },
+  "homepage": "https://github.com/vdutts7/eyecli#readme",
   "engines": {
     "node": ">=16.0.0"
   },
