@@ -118,16 +118,17 @@ eye init
 
 <br/>
 
-## `~/.eyeignore` file
+## `$HOME/.eyeignore` file
 
-eyecli supports a `~/.eyeignore` file to customize what gets searched
+eyecli supports a `$HOME/.eyeignore` file to customize what gets searched
 
 ```bash
 # Create starter ignore file
 eye init
 ```
 
-This creates `~/.eyeignore` with sensible defaults (node_modules, .git, build dirs, etc.). Edit it to customize.
+- creates `$HOME/.eyeignore` with sensible defaults (`node_modules`, `.git`, build dirs, etc.)
+- edit it to customize.
 
 **Starter template includes:**
 - Version control (.git, .svn)
