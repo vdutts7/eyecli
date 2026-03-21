@@ -4,7 +4,7 @@
 <img src="https://raw.githubusercontent.com/vdutts7/squircle/main/webp/npm.webp" alt="logo" width="80" height="80" />
 
 <h1 align="center">eyecli</h1>
-<p align="center"><i><b>The eye sees all. Powerful search CLI wrapping `ripgrep` and `fd` (`fzf` + semantic search coming soon). </b></i></p>
+<p align="center"><i><b>The eye sees all. Powerful search CLI wrapping `ripgrep` and `fd`</b></i></p>
 
 [![Github][github]][github-url]
 [![npm][npm]][npm-url]
@@ -51,8 +51,8 @@ npm i -g @vd7/eyecli
 
 ### Requirements
 
-- [ripgrep](https://github.com/BurntSushi/ripgrep) — for content search
-- [fd](https://github.com/sharkdp/fd) — for filename search
+- [ripgrep](https://github.com/BurntSushi/ripgrep)- for *file contents* search
+- [fd](https://github.com/sharkdp/fd) for *filenames* search
 
 ```bash
 # macOS
@@ -65,13 +65,6 @@ apt install ripgrep fd-find
 choco install ripgrep fd
 ```
 
-### From source (optional)
-
-```bash
-git clone https://github.com/vdutts7/eyecli.git
-cd eyecli
-npm i -g .
-```
 
 <br/>
 
@@ -139,7 +132,7 @@ eye init
 - Caches (__pycache__, .cache)
 - And more...
 
-**Secrets are NOT ignored by default** — uncomment `.env` patterns in `~/.eyeignore` if you want to exclude them.
+**Secrets are NOT ignored by default** — uncomment `.env` patterns in `$HOME/.eyeignore` if you want to exclude them.
 
 <br/>
 
@@ -151,7 +144,8 @@ eye init
 - [x] Tree view output
 - [x] Custom ignore file (`~/.eyeignore`)
 - [ ] Fuzzy matching (`fzf`)
-- [ ] Semantic search
+- [ ] Semantic search 
+- [ ] metadata search (exif data, date sorting, provenance, embedded contents, etc)
 - [ ] Interactive mode
 - [ ] Config file for defaults
 
