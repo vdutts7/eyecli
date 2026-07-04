@@ -1,6 +1,7 @@
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/vdutts7/squircle/main/webp/eyecli.webp" alt="logo" width="80" height="80" />
+<img src="https://raw.githubusercontent.com/vdutts7/squircle/main/webp/bash.webp" alt="logo" width="80" height="80" />
 <h1 align="center">eyecli</h1>
 <p align="center"><i><b>The eye sees all. Powerful search cli wrapping `ripgrep`, `fd`, `fzf`</b></i></p>
 
