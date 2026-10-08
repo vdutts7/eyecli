@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/vdutts7/squircle/main/webp/eyecli.webp" alt="logo" width="80" height="80" />
 <img src="https://raw.githubusercontent.com/vdutts7/squircle/main/webp/bash.webp" alt="logo" width="80" height="80" />
 <h1 align="center">eyecli</h1>
-<p align="center"><i><b>The eye sees all. Powerful search cli wrapping `ripgrep`, `fd`, `fzf`</b></i></p>
+<p align="center"><i><b>One entry point for `ripgrep`, `fd`, `dust`, and `fzf`- same search jobs, fewer flag sets to memorize</b></i></p>
 
 [![Github][github]][github-url]
 [![npm][npm]][npm-url]
