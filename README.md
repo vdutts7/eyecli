@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/vdutts7/squircle/main/webp/eyecli.webp" alt="logo" width="80" height="80" />
 <img src="https://raw.githubusercontent.com/vdutts7/squircle/main/webp/bash.webp" alt="logo" width="80" height="80" />
 <h1 align="center">eyecli</h1>
-<p align="center"><i><b>One entry point for `ripgrep`, `fd`, `dust`, and `fzf`- same search jobs, fewer flag sets to memorize</b></i></p>
+<p align="center"><i><b>One entry point for ripgrep, fd, dust- same search jobs, fewer flag sets to memorize</b></i></p>
 
 [![Github][github]][github-url]
 [![npm][npm]][npm-url]
@@ -47,23 +47,6 @@
 ```bash
 npm i -g @vd7/eyecli
 ```
-
-### Requirements
-
-- [ripgrep](https://github.com/BurntSushi/ripgrep)- for *file contents* search
-- [fd](https://github.com/sharkdp/fd) for *filenames* search
-
-```bash
-# macOS
-brew install ripgrep fd
-
-# Ubuntu/Debian
-apt install ripgrep fd-find
-
-# Windows
-choco install ripgrep fd
-```
-
 
 <br/>
 
@@ -119,7 +102,7 @@ eyecli supports a `$HOME/.eyeignore` file to customize what gets searched
 eye init
 ```
 
-- creates `$HOME/.eyeignore` with sensible defaults (`node_modules`, `.git`, build dirs, etc.)
+- creates ~/.eyeignore with sensible defaults (`node_modules`, `.git`, build dirs, etc.)
 - edit it to customize.
 
 **Starter template includes:**
